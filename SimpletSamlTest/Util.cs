@@ -38,7 +38,7 @@ namespace SimpletSamlTest
         public static X509Certificate2 LoadSignKeyAndCertificate()
         {
 
-            var _certKey = @"C:\dev\sso_dev.pfx";
+            var _certKey = @"C:\Users\Jeff Swenson\DevTools\sso_dev.pfx";
             var _password = "d3vk3y";
 
             if (File.Exists(_certKey) == false)
